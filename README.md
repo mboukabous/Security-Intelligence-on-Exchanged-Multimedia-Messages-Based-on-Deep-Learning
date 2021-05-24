@@ -48,16 +48,16 @@ Dataset used in experiments was combined from CARER-Emotion, DailyDialog, CrowdF
 ## Results
 | Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time | Number of parameters|
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Word2vec | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms<br/>Epoch: 222s<br/>Total: 2472s | Trainable: 440 581<br/>Non-Trainable: 11 060 100 |
-| fastText | 0.8212 | 0.4908 | 0.8167 | 0.8223 | 0.8128 | Step: 88 ms<br/>Epoch: 311<br/>Total: 1567 | Trainable: 4 613<br/>Non-Trainable: 8 640 128 |
-| Glove | 0.8391 | 0.4412 | 0.8362 | 0.8388 | 0.8297 | Step: 245 ms<br/>Epoch: 869s<br/>Total: 3576s | Trainable: 527 369<br/>Non-Trainable: 0 |
-| ELMo | 0.8152 | 0.4810 | 0.8041 | 0.8102 | 0.8064 | Step: 7 ms<br/>Epoch: 844s<br/>Total: 3576s | Trainable: 527 369<br/>Non-Trainable: 0 |
-| BERT | 0.8612 | 0.3551 | 0.8589 | 0.8612 | 0.8596 | Step: 787 ms<br/>Epoch: 247 min<br/>Total: 495 min | Trainable: 109 361 669<br/>Non-Trainable: 0 |
-| RoBERTa | 0.8622 | 0.3629 | 0.8574 | 0.8533 | 0.8548 | Step: 609 ms<br/>Epoch: 192 min<br/>Total: 579 min | Trainable: 125 240 069<br/>Non-Trainable: 00 |
-| ALBERT | 0.8558 | 0.3845 | 0.8514 | 0.8537 | 0.8468 | Step: 595 ms<br/>Epoch: 188 min<br/>Total: 567 min | Trainable: 11 687 429<br/>Non-Trainable: 0 |
-| ULMFiT | 0.8509 | 0.4315 | 0.8472 | 0.8509 | 0.8476 | Step: -<br/>Epoch: 192s<br/>Total: 1920s | Trainable: 62 805<br/>Non-Trainable: 0 |
-| XLNet | 0.8574 | 0.3697 | 0.8562 | 0.8583 | 0.8564 | Step: 1s<br/>Epoch: 430 min<br/>Total: 1293 min | Trainable: 117 312 773<br/>Non-Trainable: 0 |
-| GPT-2 | 0.8591 | 0.3796 | 0.8559 | 0.8591 | 0.8549 | Batch: 67 ms<br/>Epoch: 18 min<br/>Total: 73 min | Trainable: 124 439 808<br/>Non-Trainable: 0 |
+| ***Word2vec*** | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms<br/>Epoch: 222s<br/>Total: 2472s | Trainable: 440 581<br/>Non-Trainable: 11 060 100 |
+| ***fastText*** | 0.8212 | 0.4908 | 0.8167 | 0.8223 | 0.8128 | Step: 88 ms<br/>Epoch: 311<br/>Total: 1567 | Trainable: 4 613<br/>Non-Trainable: 8 640 128 |
+| ***Glove*** | 0.8391 | 0.4412 | 0.8362 | 0.8388 | 0.8297 | Step: 245 ms<br/>Epoch: 869s<br/>Total: 3576s | Trainable: 527 369<br/>Non-Trainable: 0 |
+| ***ELMo*** | 0.8152 | 0.4810 | 0.8041 | 0.8102 | 0.8064 | Step: 7 ms<br/>Epoch: 844s<br/>Total: 3576s | Trainable: 527 369<br/>Non-Trainable: 0 |
+| ***BERT*** | 0.8612 | 0.3551 | 0.8589 | 0.8612 | 0.8596 | Step: 787 ms<br/>Epoch: 247 min<br/>Total: 495 min | Trainable: 109 361 669<br/>Non-Trainable: 0 |
+| ***RoBERTa*** | 0.8622 | 0.3629 | 0.8574 | 0.8533 | 0.8548 | Step: 609 ms<br/>Epoch: 192 min<br/>Total: 579 min | Trainable: 125 240 069<br/>Non-Trainable: 00 |
+| ***ALBERT*** | 0.8558 | 0.3845 | 0.8514 | 0.8537 | 0.8468 | Step: 595 ms<br/>Epoch: 188 min<br/>Total: 567 min | Trainable: 11 687 429<br/>Non-Trainable: 0 |
+| ***ULMFiT*** | 0.8509 | 0.4315 | 0.8472 | 0.8509 | 0.8476 | Step: -<br/>Epoch: 192s<br/>Total: 1920s | Trainable: 62 805<br/>Non-Trainable: 0 |
+| ***XLNet*** | 0.8574 | 0.3697 | 0.8562 | 0.8583 | 0.8564 | Step: 1s<br/>Epoch: 430 min<br/>Total: 1293 min | Trainable: 117 312 773<br/>Non-Trainable: 0 |
+| ***GPT-2*** | 0.8591 | 0.3796 | 0.8559 | 0.8591 | 0.8549 | Batch: 67 ms<br/>Epoch: 18 min<br/>Total: 73 min | Trainable: 124 439 808<br/>Non-Trainable: 0 |
 
 ## Discussion (English)
 In this work, we show the application of deep learning-based language representation learning models for the classification of 5 sentiment types based on a combined dataset. We notice that transfer learning approaches reach the best average results using the training and validation data in fewer epochs than word embeddings ones, because it benefits from other base models’ knowledge. Nevertheless, it takes more time to train, due to the huge number of parameters used. Among these transfer learning approaches, we conclude that the best one is BERT algorithm because it reaches the best results in almost all our metrics, with 35.51% as validation loss, 85.89% as precision, 86.12% as recall, and 85.96% as F1-score in 495 min (2 epochs). For the accuracy, RoBERTa model has the best accuracy, with 86.22% in 579 min (3 epochs). On the other hand, transformer-based techniques reach their best result in more time (more than one hour to be trained) compared to the other models.
