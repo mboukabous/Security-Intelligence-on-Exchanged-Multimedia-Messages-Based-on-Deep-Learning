@@ -34,3 +34,13 @@ One of the important tasks in NLP is the learning of vector representations of t
 ***- [XLNet](https://arxiv.org/abs/1906.08237)*** is a generalized autoregressive (AR) pertaining method that uses the context word to predict the next word which is constrained to a unidirectional context, either backward or forward. Although, XLNet learns from bidirectional context using Permutation Language Modeling. It also influences the best of both AR language modeling and autoencoders while avoiding their limitations.
 
 ***- [GPT-2 (Generative Pretrained Transformer 2 - successor of GPT)](https://openai.com/blog/better-language-models)*** follows the OpenAI GPT model with a few architecture modifications. It consists of a big transformer-based language model with 1.5 billion parameters, trained with the objective of the prediction of the next word, given all previous words in a text. And unlike the previous models that require pre-training and fine-tuning, there is no fine-tuning step for GPT-2.
+
+
+## Dataset
+Dataset used in experiments was combined from CARER-Emotion, DailyDialog, CrowdFlower, and Isear to create a rich dataset with 5 labels: anger (5k sentences), joy (26k sentences), sad (13k sentences), fear (3.6k sentences), and neutral (94k sentences). The used texts consist of tweets, dialog utterances, and short messages as shown in the table bellow.
+| Dataset | Year | Content | Number of sentences | Emotion categories |
+| --- | --- | --- | --- | --- |
+| [CARER – Emotion](https://www.aclweb.org/anthology/D18-1404) | 2018 | Tweets | 20k | Anger, anticipation, disgust, fear, joy, sadness, surprise, and trust |
+| [DailyDialog](https://arxiv.org/abs/1710.03957) | 2017 | Dialogues | 102k | Neutral, joy, surprise, sadness, anger, disgust, and fear |
+| [CrowdFlower](https://data.world/crowdflower/sentiment-analysis-in-text) | 2016 | Tweets | 40k | Empty, sadness, enthusiasm, neutral, worry, surprise, love, fun, hate, happiness, boredom, relief, anger |
+| [Isear](https://pubmed.ncbi.nlm.nih.gov/8195988/) | 1994 | Emotion situations | 7.5k | Joy, fear, anger, sadness, disgust, shame, guilt |
