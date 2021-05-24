@@ -12,8 +12,11 @@ Le traitement automatique du langage naturel (NLP=Natural Language Processing) v
 One of the important tasks in NLP is the learning of vector representations of text, as deep learning algorithms require representing their input entries in a vector format.
 
 #### Neural Word Embeddings
+
 ***- Word2vec*** is an unsupervised learning algorithm that consists of a group of related models used for word embeddings generation. It is based on three-layer neural networks and seeks to learn the vector representations of words composing a text, so that words that share similar contexts are represented by close digital vectors. Word2Vec has two neural architectures, called Continuous Bag-of-Words (CBOW) and Skip-Gram. CBOW receives as input the context of a word, i.e., the terms surrounding it in a sentence, and tries to predict the word in question. Skip-Gram does exactly the opposite: it takes a word as input and tries to predict its context.
+
 ***- fastText*** is a Facebook's AI library for efficient learning of sentences classification and word embeddings. It supports multiprocessing during training and allows to create an unsupervised or supervised learning algorithm to obtain vector representations of words and sentences. fastText uses a neural network for word embeddings and supports training continuous bag of words (CBOW) or skip-gram model. It can be used as an initializer for transfer learning.
+
 ***- Glove*** is an unsupervised learning algorithm to obtain word vector representations. This is accomplished by mapping words in a meaningful space where the distance between words is related to semantic resemblance. Training is performed using an underlying count-based model on the aggregated global word to word co-occurrence matrix within a text corpus, and the subsequent representations display interesting linear substructures in the word vector space. It combines the features of two sets of models, namely the local context window approaches and the global matrix factorization.
 
 #### Transfer Learning Techniques
