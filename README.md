@@ -44,3 +44,13 @@ Dataset used in experiments was combined from CARER-Emotion, DailyDialog, CrowdF
 | [DailyDialog](https://arxiv.org/abs/1710.03957) | 2017 | Dialogues | 102k | Neutral, joy, surprise, sadness, anger, disgust, and fear |
 | [CrowdFlower](https://data.world/crowdflower/sentiment-analysis-in-text) | 2016 | Tweets | 40k | Empty, sadness, enthusiasm, neutral, worry, surprise, love, fun, hate, happiness, boredom, relief, anger |
 | [Isear](https://pubmed.ncbi.nlm.nih.gov/8195988/) | 1994 | Emotion situations | 7.5k | Joy, fear, anger, sadness, disgust, shame, guilt |
+
+## Results
+| Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time | Number of parameters|
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Word2vec | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms, Epoch: 222s, Total: 2472s | Trainable: 440,581, Non-Trainable: 11 060 100 |
+
+## Discussion (English)
+
+
+## Discussion (Francais)
