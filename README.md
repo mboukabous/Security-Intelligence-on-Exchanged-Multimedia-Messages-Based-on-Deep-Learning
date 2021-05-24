@@ -48,7 +48,7 @@ Dataset used in experiments was combined from CARER-Emotion, DailyDialog, CrowdF
 ## Results
 | Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time | Number of parameters|
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Word2vec | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms, Epoch: 222s, Total: 2472s | Trainable: 440,581 <br /> Non-Trainable: 11 060 100 |
+| Word2vec | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms<br/>Epoch: 222s<br/>Total: 2472s | Trainable: 440,581<br/>Non-Trainable: 11 060 100 |
 
 ## Discussion (English)
 In this work, we show the application of deep learning-based language representation learning models for the classification of 5 sentiment types based on a combined dataset. We notice that transfer learning approaches reach the best average results using the training and validation data in fewer epochs than word embeddings ones, because it benefits from other base models’ knowledge. Nevertheless, it takes more time to train, due to the huge number of parameters used. Among these transfer learning approaches, we conclude that the best one is BERT algorithm because it reaches the best results in almost all our metrics, with 35.51% as validation loss, 85.89% as precision, 86.12% as recall, and 85.96% as F1-score in 495 min (2 epochs). For the accuracy, RoBERTa model has the best accuracy, with 86.22% in 579 min (3 epochs). On the other hand, transformer-based techniques reach their best result in more time (more than one hour to be trained) compared to the other models.
