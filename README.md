@@ -47,8 +47,8 @@ Deep Learning algorithms are unable to deal with textual data in their natural l
 | [Isear](https://pubmed.ncbi.nlm.nih.gov/8195988/) | 1994 | Emotion situations | 7.5k | Joy, fear, anger, sadness, disgust, shame, guilt |
 
 ## Results
-| Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time | Number of parameters|
-| --- | --- | --- | --- | --- | --- | --------------- | --- |
+| Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp | Number of parameters|
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | ***Word2vec*** | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms<br/>Epoch: 222s<br/>Total: 2472s | Trainable: 440 581<br/>Non-Trainable: 11 060 100 |
 | ***fastText*** | 0.8212 | 0.4908 | 0.8167 | 0.8223 | 0.8128 | Step: 88 ms<br/>Epoch: 311<br/>Total: 1567 | Trainable: 4 613<br/>Non-Trainable: 8 640 128 |
 | ***Glove*** | 0.8391 | 0.4412 | 0.8362 | 0.8388 | 0.8297 | Step: 245 ms<br/>Epoch: 869s<br/>Total: 3576s | Trainable: 527 369<br/>Non-Trainable: 0 |
