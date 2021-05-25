@@ -79,17 +79,18 @@ Please cite the [following paper](https://ijeecs.com) when you can:
 
 Veuillez citer l'[article suivant](https://ijeecs.com) lorsque vous le pouvez :
 
-<pre><code>@article{boukabous2021dl),
+<pre><code>
+@article{boukabous2021dl),
     title={A Comparative Study of DL-Based Language Representation Learning Models},
     author={Boukabous, Mohammed and Azizi, Mostafa},
-doi = {10.11591/IJAI.V10.I1.PP%P},
-issn = {24400-46398},
-journal = {IAES Indonesian Journal of Electrical Engineering and Computer Science (IJ-EECS)},
-keywords = {Natural Language Processing; Representation Models; BERT; GPT-2; Deep Learning; Sentiment Analysis},
-month = {may},
-number = {2},
-url = {http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400},
-volume = {22},
-year = {2021}
+    doi = {10.11591/IJAI.V10.I1.PP%P},
+    issn = {24400-46398},
+    journal = {IAES Indonesian Journal of Electrical Engineering and Computer Science (IJ-EECS)},
+    keywords = {Natural Language Processing; Representation Models; BERT; GPT-2; Deep Learning; Sentiment Analysis},
+    month = {may},
+    number = {2},
+    url = {http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400},
+    volume = {22},
+    year = {2021}
 }
 </code></pre>
