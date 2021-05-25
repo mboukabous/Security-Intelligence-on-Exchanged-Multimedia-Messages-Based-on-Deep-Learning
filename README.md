@@ -74,10 +74,10 @@ Deep Learning algorithms are unable to deal with textual data in their natural l
 
 <p align="justify">Le modèle BERT a donné des meilleurs résultats par rapport aux autres méthodes, car il prend tout en compte, afin de prédire le vrai sens des phrases. Cela signifie que les algorithmes d'apprentissage par transfert peuvent obtenir de meilleurs résultats de classification en apprenant des corrélations supplémentaires. Mais en temps de calcul, ils consomment plus parce que plus de paramètres sont nécessaires. En fait, la plupart des architectures DL utilisent des éléments de calcul similaires, par conséquent, on peut utiliser le nombre de paramètres comme substitut de la complexité, bien que ces réseaux puissent avoir le même nombre de paramètres mais nécessitent des nombres d'opérations différents.</p>
 
-# Paper Citation - Citation article
-Please cite the [following paper](https://ijeecs.com) when you can:
+# Citation
+Please cite the [following paper](http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400) when you can:
 
-Veuillez citer l'[article suivant](https://ijeecs.com) lorsque vous le pouvez :
+Veuillez citer l'[article suivant](http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400) lorsque vous le pouvez :
 
 <pre><code>
 @article{boukabous2021dl),
