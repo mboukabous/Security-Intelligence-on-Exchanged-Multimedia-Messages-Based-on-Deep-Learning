@@ -47,7 +47,8 @@ Deep Learning algorithms are unable to deal with textual data in their natural l
 | [Isear](https://pubmed.ncbi.nlm.nih.gov/8195988/) | 1994 | Emotion situations | 7.5k | Joy, fear, anger, sadness, disgust, shame, guilt |
 
 ## Results
-| Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time                           | Number of parameters|
+<div class="foo">
+| Algorithm | Validation Accuracy | Validation Loss | Precision | Recall | F1-score | Training Time | Number of parameters|
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | ***Word2vec*** | 0.8452 | 0.4178 | 0.8410 | 0.8453 | 0.8391 | Step: 63 ms<br/>Epoch: 222s<br/>Total: 2472s | Trainable: 440 581<br/>Non-Trainable: 11 060 100 |
 | ***fastText*** | 0.8212 | 0.4908 | 0.8167 | 0.8223 | 0.8128 | Step: 88 ms<br/>Epoch: 311<br/>Total: 1567 | Trainable: 4 613<br/>Non-Trainable: 8 640 128 |
@@ -59,7 +60,7 @@ Deep Learning algorithms are unable to deal with textual data in their natural l
 | ***ULMFiT*** | 0.8509 | 0.4315 | 0.8472 | 0.8509 | 0.8476 | Step: -<br/>Epoch: 192s<br/>Total: 1920s | Trainable: 62 805<br/>Non-Trainable: 0 |
 | ***XLNet*** | 0.8574 | 0.3697 | 0.8562 | 0.8583 | 0.8564 | Step: 1s<br/>Epoch: 430 min<br/>Total: 1293 min | Trainable: 117 312 773<br/>Non-Trainable: 0 |
 | ***GPT-2*** | 0.8591 | 0.3796 | 0.8559 | 0.8591 | 0.8549 | Batch: 67 ms<br/>Epoch: 18 min<br/>Total: 73 min | Trainable: 124 439 808<br/>Non-Trainable: 0 |
-
+</div>
 ## Discussion (English)
 <p align="justify">In this work, we show the application of deep learning-based language representation learning models for the classification of 5 sentiment types based on a combined dataset. We notice that transfer learning approaches reach the best average results using the training and validation data in fewer epochs than word embeddings ones, because it benefits from other base models’ knowledge. Nevertheless, it takes more time to train, due to the huge number of parameters used. Among these transfer learning approaches, we conclude that the best one is BERT algorithm because it reaches the best results in almost all our metrics, with 35.51% as validation loss, 85.89% as precision, 86.12% as recall, and 85.96% as F1-score in 495 min (2 epochs). For the accuracy, RoBERTa model has the best accuracy, with 86.22% in 579 min (3 epochs). On the other hand, transformer-based techniques reach their best result in more time (more than one hour to be trained) compared to the other models.</p>
 
