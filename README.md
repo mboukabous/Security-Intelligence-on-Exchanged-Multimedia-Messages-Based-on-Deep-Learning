@@ -1,9 +1,9 @@
 # In progress
 
-<div style="text-align: right">
 # Sentiment Analysis (SA) using Deep Learning-based language representation learning models
 
 ## Introducation (English)
+{: style="text-align: justify" }
 Deep learning (DL) approaches use various processing layers to learn hierarchical representations of data. Recently, many methods and designs of natural language processing (NLP) models have shown significant development, especially in text mining and analysis. For learning vector-space representations of text, there are famous models like Word2vec, GloVe, and fastText. In fact, NLP took a big step forward when BERT and recently GTP-3 came out.
 Deep Learning algorithms are unable to deal with textual data in their natural language data form which is typically unstructured information; they require special representation of data as inputs instead. Usually, natural language text data needs to be converted into internal representations form that DL algorithms can read such as feature vectors, hence the necessity to use representation learning models. These models have shown a big leap during the last years. Their set ranges from the methods that embed words into distributed representations and use the language modeling objective to adjust them as model parameters (like Word2vec, fastText, and GloVe), to recently transfer learning models (like ELMo, BERT, ULMFiT, XLNet, and GPT-2). These last use larger corpora, more parameters, more computing resources, and instead of assigning each word with a fixed vector, they use multilayer neural networks to calculate dynamic representations for the words according to their context, which is especially useful for the words with multiple meanings.
 
@@ -72,4 +72,3 @@ Dans ce travail, nous montrons l'application de modèles d'apprentissage de la r
 Parmi ces approches d'apprentissage par transfert, nous avons constater que le meilleur est l'algorithme BERT car il atteint les meilleurs résultats dans presque toutes nos métriques, avec 35,51% de perte, 85,89% d’exactitude, 86,12% de rappel et 85,96% de F1-score en 495 min (2 époques). Pour la précision, le modèle RoBERTa est le meilleur, avec 86,22% en 579 min (3 époques). En revanche, les techniques basées sur les Transformer atteignent leur meilleur résultat mais en plus de temps (plus d'une heure pour s’entrainer) par rapport aux autres modèles.
 
 Le modèle BERT a donné des meilleurs résultats par rapport aux autres méthodes, car il prend tout en compte, afin de prédire le vrai sens des phrases. Cela signifie que les algorithmes d'apprentissage par transfert peuvent obtenir de meilleurs résultats de classification en apprenant des corrélations supplémentaires. Mais en temps de calcul, ils consomment plus parce que plus de paramètres sont nécessaires. En fait, la plupart des architectures DL utilisent des éléments de calcul similaires, par conséquent, on peut utiliser le nombre de paramètres comme substitut de la complexité, bien que ces réseaux puissent avoir le même nombre de paramètres mais nécessitent des nombres d'opérations différents.
-</div>
