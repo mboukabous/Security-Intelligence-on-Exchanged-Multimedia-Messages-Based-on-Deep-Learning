@@ -73,3 +73,18 @@ Deep Learning algorithms are unable to deal with textual data in their natural l
 <p align="justify">Parmi ces approches d'apprentissage par transfert, nous avons constater que le meilleur est l'algorithme BERT car il atteint les meilleurs résultats dans presque toutes nos métriques, avec 35,51% de perte, 85,89% d’exactitude, 86,12% de rappel et 85,96% de F1-score en 495 min (2 époques). Pour la précision, le modèle RoBERTa est le meilleur, avec 86,22% en 579 min (3 époques). En revanche, les techniques basées sur les Transformer atteignent leur meilleur résultat mais en plus de temps (plus d'une heure pour s’entrainer) par rapport aux autres modèles.</p>
 
 <p align="justify">Le modèle BERT a donné des meilleurs résultats par rapport aux autres méthodes, car il prend tout en compte, afin de prédire le vrai sens des phrases. Cela signifie que les algorithmes d'apprentissage par transfert peuvent obtenir de meilleurs résultats de classification en apprenant des corrélations supplémentaires. Mais en temps de calcul, ils consomment plus parce que plus de paramètres sont nécessaires. En fait, la plupart des architectures DL utilisent des éléments de calcul similaires, par conséquent, on peut utiliser le nombre de paramètres comme substitut de la complexité, bien que ces réseaux puissent avoir le même nombre de paramètres mais nécessitent des nombres d'opérations différents.</p>
+
+# Paper Citation - Citation article
+Please cite the following paper when you can:
+Veuillez citer l'article suivant lorsque vous le pouvez :
+
+<pre><code>@article{maiya2020ktrain,
+    title={ktrain: A Low-Code Library for Augmented Machine Learning},
+    author={Arun S. Maiya},
+    year={2020},
+    eprint={2004.10703},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    journal={arXiv preprint arXiv:2004.10703},
+}
+</code></pre>
