@@ -75,16 +75,21 @@ Deep Learning algorithms are unable to deal with textual data in their natural l
 <p align="justify">Le modèle BERT a donné des meilleurs résultats par rapport aux autres méthodes, car il prend tout en compte, afin de prédire le vrai sens des phrases. Cela signifie que les algorithmes d'apprentissage par transfert peuvent obtenir de meilleurs résultats de classification en apprenant des corrélations supplémentaires. Mais en temps de calcul, ils consomment plus parce que plus de paramètres sont nécessaires. En fait, la plupart des architectures DL utilisent des éléments de calcul similaires, par conséquent, on peut utiliser le nombre de paramètres comme substitut de la complexité, bien que ces réseaux puissent avoir le même nombre de paramètres mais nécessitent des nombres d'opérations différents.</p>
 
 # Paper Citation - Citation article
-Please cite the following paper when you can:
-Veuillez citer l'article suivant lorsque vous le pouvez :
+Please cite the [following paper](https://ijeecs.com) when you can:
 
-<pre><code>@article{maiya2020ktrain,
-    title={ktrain: A Low-Code Library for Augmented Machine Learning},
-    author={Arun S. Maiya},
-    year={2020},
-    eprint={2004.10703},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG},
-    journal={arXiv preprint arXiv:2004.10703},
+Veuillez citer l'[article suivant](https://ijeecs.com) lorsque vous le pouvez :
+
+<pre><code>@article{boukabous2021dl),
+    title={A Comparative Study of DL-Based Language Representation Learning Models},
+    author={Boukabous, Mohammed and Azizi, Mostafa},
+doi = {10.11591/IJAI.V10.I1.PP%P},
+issn = {24400-46398},
+journal = {IAES Indonesian Journal of Electrical Engineering and Computer Science (IJ-EECS)},
+keywords = {Natural Language Processing; Representation Models; BERT; GPT-2; Deep Learning; Sentiment Analysis},
+month = {may},
+number = {2},
+url = {http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400},
+volume = {22},
+year = {2021}
 }
 </code></pre>
