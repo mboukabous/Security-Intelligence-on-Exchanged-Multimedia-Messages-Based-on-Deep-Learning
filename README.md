@@ -81,16 +81,15 @@ Please cite the [following paper](http://ijeecs.iaescore.com/index.php/IJEECS/ar
 Veuillez citer l'[article suivant](http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400) lorsque vous le pouvez :
 
 <pre><code>
-@article{boukabous2021dl),
-    title={A Comparative Study of DL-Based Language Representation Learning Models},
-    author={Boukabous, Mohammed and Azizi, Mostafa},
+@article{boukabous2021dl,
+    author = {Boukabous, Mohammed and Azizi, Mostafa},
     doi = {10.11591/ijeecs.v22.i2.pp424-432},
-    issn = {24400-47768},
     journal = {IAES Indonesian Journal of Electrical Engineering and Computer Science (IJ-EECS)},
-    keywords = {Natural Language Processing; Representation Models; BERT; GPT-2; Deep Learning; Sentiment Analysis},
-    month = {may},
-    url = {http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400},
+    keywords = {BERT,Deep Learning,GPT-2,Natural Language Processing,Representation Models,Sentiment Analysis},
+    number = {2},
+    pages = {424--432},
+    title = {{A Comparative Study of DL-Based Language Representation Learning Models}},
     volume = {22},
-    year = {2021}
+    year = {2020}
 }
 </code></pre>
