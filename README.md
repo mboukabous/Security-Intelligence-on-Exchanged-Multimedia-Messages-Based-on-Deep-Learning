@@ -83,13 +83,13 @@ Veuillez citer l'[article suivant](http://ijeecs.iaescore.com/index.php/IJEECS/a
 <pre><code>
 @article{boukabous2021dl,
     author = {Boukabous, Mohammed and Azizi, Mostafa},
-    doi = {10.11591/ijeecs.v22.i2.pp424-432},
+    doi = {10.11591/ijeecs.v22.i2.pp1032-1040},
     journal = {IAES Indonesian Journal of Electrical Engineering and Computer Science (IJ-EECS)},
     keywords = {BERT,Deep Learning,GPT-2,Natural Language Processing,Representation Models,Sentiment Analysis},
     number = {2},
-    pages = {424--432},
+    pages = {1032--1040},
     title = {{A Comparative Study of DL-Based Language Representation Learning Models}},
     volume = {22},
-    year = {2020}
+    year = {2021}
 }
 </code></pre>
