@@ -80,8 +80,7 @@ Please cite the [following paper](http://ijeecs.iaescore.com/index.php/IJEECS/ar
 
 Veuillez citer l'[article suivant](http://ijeecs.iaescore.com/index.php/IJEECS/article/view/24400) lorsque vous le pouvez :
 
-<pre><code>
-@article{boukabous2021dl,
+<pre><code>@article{boukabous2021dl,
     author = {Boukabous, Mohammed and Azizi, Mostafa},
     doi = {10.11591/ijeecs.v22.i2.pp1032-1040},
     journal = {IAES Indonesian Journal of Electrical Engineering and Computer Science (IJ-EECS)},
