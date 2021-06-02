@@ -63,8 +63,8 @@ from ktrain import text
 MODEL_NAME = 'roberta-base'
 
 t = text.Transformer(MODEL_NAME, maxlen=500, classes=class_names)
-trn = t.preprocess_train(x_train, y_train)
 val = t.preprocess_test(x_test, y_test)
+trn = t.preprocess_train(x_train, y_train)
 model = t.get_classifier()
 
 learner = ktrain.get_learner(model, train_data=trn, val_data=val, batch_size=6)
@@ -79,7 +79,7 @@ logdir = os.path.join("logsr", datetime.now().strftime("%Y%m%d-%H%M%S"))
 tf.debugging.experimental.enable_dump_debug_info(logdir)
 
 callbacks = [
-ModelCheckpoint(filepath=basedir+'checkpoint1-{epoch:02d}.hdf5', verbose=2, save_best_only=True, monitor='accuracy',mode='max'),
+ModelCheckpoint(filepath=basedir+'checkpoint-{epoch:02d}.hdf5', verbose=2, save_best_only=True, monitor='accuracy',mode='max'),
 CSVLogger(basedir+'model_1trainanalysis1.csv',separator=',', append=False),
 EarlyStopping(monitor='val_loss', min_delta=1e-6, patience=1, verbose=2, mode='auto'),
 TensorBoard(log_dir=logdir,histogram_freq=1)]
