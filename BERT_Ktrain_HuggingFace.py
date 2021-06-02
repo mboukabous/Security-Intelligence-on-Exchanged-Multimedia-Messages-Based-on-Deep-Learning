@@ -1,5 +1,3 @@
-# MATSI LAB - PHD WORK
-
 !pip3 install ktrain
 
 import pandas as pd
@@ -129,5 +127,3 @@ prediction = predictor.predict(message)
 print('predicted: {} ({:.2f})'.format(prediction, (time.time() - start_time)))
 
 predictor.save("models/bert_model")
-
-#end of code
