@@ -1,5 +1,3 @@
-# Adding codes in progress (7/10)
-
 # Sentiment Analysis (SA) using Deep Learning-based language representation learning models
 
 ## Introducation (English)
