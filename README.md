@@ -1,4 +1,6 @@
-# Security Intelligence on Exchanged Multimedia Messages Based on Deep Learning (IN PROGRESS)
+# **IN PROGRESS**
+
+# Security Intelligence on Exchanged Multimedia Messages Based on Deep Learning
 
 ## Introduction (English)
 <p align="justify">
